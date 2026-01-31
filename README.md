@@ -32,8 +32,8 @@ analyzes URLs for common phishing indicators such as:
 - URL length
 - Missing HTTPS
 
-### ▶️ How to Run
-```bash
+ ▶️ How to Run
+bash:
 python3 detector/phishing_detector.py
 
 ## ⚠️ Disclaimer
