@@ -2,26 +2,38 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Phishing Awareness Demo</title>
+  <title>Secure Account Login</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div class="login-box">
-    <h2>Account Login</h2>
-    <form onsubmit="return showWarning()">
-      <input type="text" placeholder="Username" required>
-      <input type="password" placeholder="Password" required>
-      <button type="submit">Login</button>
-    </form>
-    <p class="note">⚠️ Educational Demo Only</p>
+  <div class="container">
+    <div class="login-card">
+      <h2>Secure Login</h2>
+      <p class="subtitle">Verify your account to continue</p>
+
+      <form id="loginForm">
+        <input type="text" placeholder="Email or Username" required>
+        <input type="password" placeholder="Password" required>
+        <button type="submit">Sign In</button>
+      </form>
+
+      <p class="footer-text">
+        ⚠️ This page is part of a <strong>Phishing Awareness Demo</strong>.
+      </p>
+    </div>
   </div>
 
   <script>
-    function showWarning() {
-      alert("This is a phishing awareness demo. Never enter your real credentials on unknown sites.");
-      return false;
-    }
+    document.getElementById("loginForm").addEventListener("submit", function (e) {
+      e.preventDefault(); // stop form submission
+
+      alert(
+        "Phishing Awareness Alert!\n\n" +
+        "This is a demonstration page.\n" +
+        "Never enter your real credentials on unknown websites."
+      );
+    });
   </script>
 
 </body>
