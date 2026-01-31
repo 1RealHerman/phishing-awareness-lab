@@ -3,6 +3,9 @@
 
 > ⚠️ This live demo is for **educational purposes only** and does not collect or store any credentials.
 
+## 📸 Project Screenshot
+
+![Phishing Awareness Demo UI](screenshots/ui-demo.png)
 
 # Phishing Awareness Lab 🔐
 
