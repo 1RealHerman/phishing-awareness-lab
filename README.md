@@ -1,3 +1,9 @@
+## 🌍 Live Demo
+🔗 https://1RealHerman.github.io/phishing-awareness-lab/
+
+> ⚠️ This live demo is for **educational purposes only** and does not collect or store any credentials.
+
+
 # Phishing Awareness Lab 🔐
 
 ## 📌 Overview
