@@ -36,29 +36,6 @@ analyzes URLs for common phishing indicators such as:
 The detector analyzes a given URL using a rule-based scoring system.
 Each suspicious characteristic increases the risk score.
 
-### 🧩 Detection Flow
-User enters URL
-|
-v
-Check URL structure
-(length, dots, hyphens)
-|
-v
-Check for IP address in URL
-|
-v
-Check for suspicious keywords
-(login, verify, secure, update)
-|
-v
-Check HTTPS usage
-|
-v
-Calculate risk score
-|
-v
-Display verdict:
-LOW RISK / SUSPICIOUS / HIGH RISK
 ### 🛡️ Why This Matters
 This approach demonstrates how security tools apply multiple heuristics
 rather than relying on a single factor, similar to real-world phishing
