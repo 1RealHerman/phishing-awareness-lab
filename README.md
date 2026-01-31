@@ -23,6 +23,19 @@ and how to identify and avoid them.
 - CSS
 - Cybersecurity concepts
 
+## 🧪 Phishing URL Detector (Python)
+
+This project includes a simple Python-based phishing URL detector that
+analyzes URLs for common phishing indicators such as:
+- IP addresses in URLs
+- Suspicious keywords
+- URL length
+- Missing HTTPS
+
+### ▶️ How to Run
+```bash
+python3 detector/phishing_detector.py
+
 ## ⚠️ Disclaimer
 This project is for **educational purposes only**.
 No credentials are collected, stored, or transmitted.
